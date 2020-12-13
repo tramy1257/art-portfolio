@@ -2,11 +2,12 @@ body {
   margin: 0;
   border: 0;
   background-color: white;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .Head {
   display: flex;
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
   /*background-color: salmon;*/
   justify-content: space-between;
@@ -19,6 +20,33 @@ body {
   display: flex;
   flex-direction: column;
   width: 60%;
+  margin-right: 20px;
+}
+
+#Directory {
+  margin: 0 auto;
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding: 20px;
+  justify-content: center;
+
+}
+
+.DirBtn {
+  font-size: 18px;
+  padding: 5px 15px;
+  margin: 10px;
+  color: darkmagenta;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.DirBtn:hover {
+  background-color: darkmagenta;
+  color: white;
+  border-radius: 5px;
 }
 
 #Name {
@@ -26,12 +54,16 @@ body {
   text-align: center;
 }
 
+#Intro p {
+  margin-top: 0;
+}
+
 #Intro {
   width: 100%;
 }
 
 #myPic {
-  width: 40%;
+  width: 30%;
 }
 
 .Projects {
@@ -48,81 +80,47 @@ body {
   flex-flow: column;
 
 }
-
 .ProjectsCol img {
   width: 100%;
   flex-grow:1;
 }
 
-
-.Foot {
+#About {
   margin: 0 auto;
-  display: flex;
-  flex-flow: row;
-/*  background-color: lavender;*/
-  padding: 20px;
+  margin-top: 40px;
+  width: 90%;
+  text-align: center;
+}
+
+#Contact {
+  margin: 0 auto;
   margin-top: 40px;
   margin-bottom: 40px;
-  width: 60%;
-  justify-content: space-evenly;
+  width: 90%;
+  text-align: center;
 }
 
-.Foot button {
-  display: block;
-  width: 100px;
-  height: 50px;
-  border: none;
-  background-color: plum;
+#Contact h3 {
+  margin-bottom: 10px;
 }
 
-.Foot button:hover {
-  background-color: darkviolet;
+.ContactBtn {
   color: white;
-}
-
-.Contact {
-  margin: 0 auto;
-  display: flex;
-  flex-flow: row;
-/*  background-color: lavender;*/
-  padding: 20px;
-  margin-top: 40px;
-  width: 60%;
-  justify-content: space-evenly;
-}
-
-.fa {
-  font-size: 26px;
+  padding: 5px 0px;
+  width: 120px;
+  height: 27px;
+  font-size: 15px;
   text-decoration: none;
-  text-align: center;
-  color: darkblue;
-  width: 100%;
-  padding: 10px;
-  width: 50px;
-  box-sizing: border-box;
-  border: 1px solid darkblue;
-  border-radius: 10%;
+  margin: 10px;
+  background-color: darkmagenta;
+  border: none;
+  border-radius: 3px;
 }
 
-.fa:hover {
-  color: white;
-  background-color: darkblue;
+.ContactBtn:hover {
+  border: 2px solid darkmagenta;
+  color: darkmagenta;
+  background-color: transparent;
+  cursor: pointer;
 }
 
-/*
-.fa:hover {
-  color: white;
-  background-color: darkblue;
-}
-
-.LinkIcon {
-  border: 1px solid darkblue; 
-  width: 40px;
-  height: 40px;
-  text-align: center;
-  line-height: 40px;
-  list-style-type: none;
-  display: block;
-}
-
-*/

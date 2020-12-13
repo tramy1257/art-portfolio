@@ -3,15 +3,24 @@
   <head>
     <title>Portfolio</title>
     <link rel="stylesheet" href="main-style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/75fe1e0d1b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class='Head'>
       <div id='HeadLeft'>
         <div id='Name'><h1>Your Name</h1></div>
-        <div id='Intro'><p>Introduction</p></div>
+        <div id='Intro'><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p></div>
       </div>
       <img id='myPic' src='my-pic.jpg' alt='my-pic'/>
+    </div>
+
+    <div id='Directory'>
+      <button class='DirBtn'>Portfolio</button>
+      <button class='DirBtn'>Resume</button>
+      <button class='DirBtn'>About</button>
+      <button class='DirBtn'>Contact</button>
     </div>
 
     <div class='Projects'>
@@ -31,14 +40,24 @@
       </div>
     </div>
 
-    <div class='Foot'>
-      <button>Email</button>
-      <button>Resume</button>
+    <div id='About'>
+      <h2>About me</h2>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
     </div>
 
-    <div class='Contact'>
-      <a href='#' class='fa fa-facebook'></a>
-      <a href='#' class='fa fa-linkedin'></a>
+    <div id='Contact'>
+      <h3>Contact</h3>
+      <div id='ContactList'>
+        <button class='ContactBtn'>
+          <i class='fa fa-facebook'></i> | Facebook
+        </button>
+        <button class='ContactBtn'>
+          <i class='fa fa-linkedin'></i> | LinkedIn
+        </button>
+        <button class='ContactBtn'>
+          <i class='fa fa-envelope-o'></i> | Mail
+        </button>
+      </div>
     </div>
   
   </body>
