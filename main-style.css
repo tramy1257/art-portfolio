@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  border: 0;
+  background-color: white;
+}
+
+.Head {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  /*background-color: salmon;*/
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#HeadLeft {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+#Name {
+  width: 100%;
+  text-align: center;
+}
+
+#Intro {
+  width: 100%;
+}
+
+#myPic {
+  width: 40%;
+}
+
+.Projects {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  background-color: tan;
+}
+
+.ProjectsCol {
+  width: 33.3333%;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+
+}
+
+.ProjectsCol img {
+  width: 100%;
+  flex-grow:1;
+}
+
+
+.Foot {
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row;
+/*  background-color: lavender;*/
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 60%;
+  justify-content: space-evenly;
+}
+
+.Foot button {
+  display: block;
+  width: 100px;
+  height: 50px;
+  border: none;
+  background-color: plum;
+}
+
+.Foot button:hover {
+  background-color: darkviolet;
+  color: white;
+}
+
+.Contact {
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row;
+/*  background-color: lavender;*/
+  padding: 20px;
+  margin-top: 40px;
+  width: 60%;
+  justify-content: space-evenly;
+}
+
+.fa {
+  font-size: 26px;
+  text-decoration: none;
+  text-align: center;
+  color: darkblue;
+  width: 100%;
+  padding: 10px;
+  width: 50px;
+  box-sizing: border-box;
+  border: 1px solid darkblue;
+  border-radius: 10%;
+}
+
+.fa:hover {
+  color: white;
+  background-color: darkblue;
+}
+
+/*
+.fa:hover {
+  color: white;
+  background-color: darkblue;
+}
+
+.LinkIcon {
+  border: 1px solid darkblue; 
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  list-style-type: none;
+  display: block;
+}
+
+*/
