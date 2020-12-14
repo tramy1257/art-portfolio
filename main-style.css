@@ -84,6 +84,24 @@ body {
   width: 100%;
   box-sizing: border-box;
   display: flex;
+  background-color: transparent;
+  justify-content: space-evenly;
+  padding-right: 10px;
+}
+
+.ProjectsCol {
+  width: 33%;
+  margin-left: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+}
+
+/* Alternative: No border
+#Projects {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
   background-color: tan;
 }
 
@@ -92,11 +110,12 @@ body {
   box-sizing: border-box;
   display: flex;
   flex-flow: column;
-
 }
+*/
+
 .ProjectsCol img {
   width: 100%;
-  flex-grow:1;
+  margin-bottom: 10px;
 }
 
 /* ---------- About, Contact -----------*/
