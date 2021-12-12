@@ -1,0 +1,262 @@
+body {
+  margin: 0;
+  border: 0;
+  background-color: rgb(251, 181, 179);
+  background-image: linear-gradient(45deg, rgba(251, 181, 179, 1) 0%,
+      rgba(232, 212, 177, 1) 15%,
+      rgba(235, 237, 199, 1) 30%,
+      rgba(251, 232, 214, 1) 53%,
+      rgba(255, 223, 238, 1) 73%,
+      rgba(235, 230, 236, 1) 85%,
+      rgba(227, 237, 246, 1) 100%);
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* -------- Home --------*/
+#home-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  /* background-color: tan; */
+}
+
+#Name h1 {
+  margin: 0;
+  font-size: 70px;
+}
+
+/* -------- Header --------------*/
+header {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 0 5% 0 5%;
+  padding-bottom: 20px;
+  border-bottom: 5px solid black;
+}
+
+#header-name h1 {
+  font-size: 40px;
+  margin: 20px auto;
+}
+
+#header-name a {
+  text-decoration: none;
+  color: black;
+}
+
+/* ------------- Nav ------------- */
+#Directory {
+  margin: 0 auto;
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+.DirBtn {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 5px 15px;
+  margin: 10px;
+  color: darkmagenta;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.DirBtn:hover {
+  background-color: darkmagenta;
+  color: white;
+  border-radius: 5px;
+}
+
+.activeBtn {
+  background-color: darkmagenta;
+  color: white;
+  border-radius: 5px;
+}
+
+/* ------------- About ------------- */
+#about-img {
+  width: 30%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#about {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* ------------- Education ---------------*/
+span.grad-date {
+  font-weight: lighter;
+}
+
+.schedule th, .schedule td {
+  border: 2px solid black;
+  padding: 2px;
+}
+
+.schedule th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#education-content {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+#education-content table{
+  margin-bottom: 32px;
+}
+
+.table-color1 {
+  background-color: #cb997e;
+}
+
+.table-color2 {
+  background-color: #ffe8d6;
+}
+
+.table-color3 {
+  background-color: #b7b7a4;
+}
+
+.table-color4 {
+  background-color: #688AB6;
+}
+
+.table-color5 {
+  background-color: #caf0f8;
+}
+
+.table-id-office {
+  background-color: #6ABEA7;
+}
+
+/*---------- Resume ------------*/
+#resume-content {
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+hr {
+  border: 1px solid black
+}
+
+#resume-content h2 {
+  margin-bottom: 5px;
+}
+
+#resume-education {
+  display: flex;
+}
+
+#resume-education div{
+  margin: 0 40px 0 40px;
+}
+
+#resume-skill div, #resume-experience div, #resume-activities div {
+  margin-left: 40px;
+}
+
+/*---------- Portfolio -----------------*/
+#portfolio-print, #portfolio-motion, #portfolio-content {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#portfolio-content a {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  color: darkmagenta;
+  background-color: transparent;
+  border: 2px solid darkmagenta;
+  cursor: pointer;
+  width: 20%;
+  padding: 50px;
+  margin: 40px;
+}
+
+#portfolio-content a:hover {
+  background-color: darkmagenta;
+  color: white;
+  border-radius: 5px;
+}
+
+#portfolio-content {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+#portfolio-print img {
+  max-width: 70%;
+  max-height: 700px;
+  margin: 10px;
+}
+
+#portfolio-print h2 {
+  margin-top: 40px;
+}
+
+#portfolio-motion {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+#portfolio-motion video{
+  width: 80%;
+}
+
+#portfolio-motion div {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+/* ---------- Contact -----------*/
+#Contact {
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 90%;
+  text-align: center;
+}
+
+#Contact h3 {
+  margin-bottom: 10px;
+}
+
+.ContactBtn {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  padding: 5px 0px;
+  width: 120px;
+  font-size: 15px;
+  text-decoration: none;
+  margin: 10px;
+  background-color: darkmagenta;
+  border: none;
+  border-radius: 3px;
+}
+
+.ContactBtn:hover {
+  border: 2px solid darkmagenta;
+  color: darkmagenta;
+  background-color: transparent;
+  cursor: pointer;
+}
